@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt=BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valor de produto.</title>
+</head>
+<body>
+    <p>c) Elaborar um programa para uma loja, o qual leia o preço de um produto e informe as opções de pagamento da loja. Calcule e informe o valor para pagamento à vista com 10% de desconto e o valor em 3x.</p>
+    <script>
+        var produto = Number(prompt('Qual o valor do produto?'))
+        var desconto = produto - (produto/10)
+        var parcela = produto/3
+        alert(`O valor do produto é R$${produto}, a vista com desconto fica R$${desconto}, e a parcela 3x R$${parcela}.`)
+
+
+    </script>
+    
+</body>
+</html>
